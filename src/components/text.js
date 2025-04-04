@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const Text = {
   Header1: ({ children, className, ...props }) => (
     <motion.h1
-      className={`text-[36px] leading-[44px] lg:text-[48px] lg:leading-[56px] font-bold ${className}`}
+      className={`text-[36px] leading-[44px] lg:text-[48px] lg:leading-[56px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
@@ -11,7 +11,7 @@ const Text = {
   ),
   Header2: ({ children, className, ...props }) => (
     <motion.h2
-      className={`text-[30px] leading-[40px] lg:text-[36px] lg:leading-[44px] font-bold ${className}`}
+      className={`text-[30px] leading-[40px] lg:text-[36px] lg:leading-[44px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
@@ -19,7 +19,7 @@ const Text = {
   ),
   Header3: ({ children, className, ...props }) => (
     <motion.h3
-      className={`text-[24px] leading-[36px] lg:text-[30px] lg:leading-[40px] font-bold ${className}`}
+      className={`text-[24px] leading-[36px] lg:text-[30px] lg:leading-[40px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
@@ -27,7 +27,7 @@ const Text = {
   ),
   Header4: ({ children, className, ...props }) => (
     <motion.h4
-      className={`text-[20px] leading-[32px] lg:text-[24px] lg:leading-[36px] font-bold ${className}`}
+      className={`text-[20px] leading-[32px] lg:text-[24px] lg:leading-[36px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
@@ -35,7 +35,7 @@ const Text = {
   ),
   Header5: ({ children, className, ...props }) => (
     <motion.h5
-      className={`text-[18px] leading-[30px] lg:text-[20px] lg:leading-[32px] font-bold ${className}`}
+      className={`text-[18px] leading-[30px] lg:text-[20px] lg:leading-[32px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
@@ -43,7 +43,7 @@ const Text = {
   ),
   Header6: ({ children, className, ...props }) => (
     <motion.h6
-      className={`text-[16px] leading-[24px] lg:text-[18px] lg:leading-[30px] font-bold ${className}`}
+      className={`text-[16px] leading-[24px] lg:text-[18px] lg:leading-[30px] tracking-tight font-bold ${className}`}
       {...props}
     >
       {children}
